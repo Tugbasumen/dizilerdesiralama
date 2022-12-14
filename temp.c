@@ -5,7 +5,7 @@
 
 int main() 
 {
-	int n,i,j,temp; //temp=gecicisaklama
+	int n,i,j,temp; // temp=geçici saklama
 	printf("n degeri gir:");
 	scanf("%d",&n);
 	
@@ -22,7 +22,7 @@ int main()
 	{
 		for(j=0;j<n;j++)
 		{
-			if(dizi[j]>dizi[j+1])
+			if(dizi[j]>dizi[j+1])  
 			{
 				temp=dizi[j];
 				dizi[j]=dizi[j+1];
